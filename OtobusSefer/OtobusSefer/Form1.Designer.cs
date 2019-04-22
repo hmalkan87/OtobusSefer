@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmb_Nerden = new System.Windows.Forms.ComboBox();
+            this.cmb_Nereye = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -52,35 +52,37 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Nereye";
             // 
-            // comboBox1
+            // cmb_Nerden
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(46, 69);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 4;
+            this.cmb_Nerden.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_Nerden.FormattingEnabled = true;
+            this.cmb_Nerden.Location = new System.Drawing.Point(46, 69);
+            this.cmb_Nerden.Name = "cmb_Nerden";
+            this.cmb_Nerden.Size = new System.Drawing.Size(121, 21);
+            this.cmb_Nerden.TabIndex = 4;
+            this.cmb_Nerden.SelectedIndexChanged += new System.EventHandler(this.cmb_Nerden_SelectedIndexChanged);
             // 
-            // comboBox2
+            // cmb_Nereye
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(230, 69);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 5;
+            this.cmb_Nereye.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_Nereye.FormattingEnabled = true;
+            this.cmb_Nereye.Location = new System.Drawing.Point(230, 69);
+            this.cmb_Nereye.Name = "cmb_Nereye";
+            this.cmb_Nereye.Size = new System.Drawing.Size(121, 21);
+            this.cmb_Nereye.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 265);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmb_Nereye);
+            this.Controls.Add(this.cmb_Nerden);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,8 +92,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmb_Nerden;
+        private System.Windows.Forms.ComboBox cmb_Nereye;
     }
 }
 

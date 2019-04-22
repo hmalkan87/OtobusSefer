@@ -2,9 +2,9 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
-// denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
-// bu öznitelik değerlerini değiştirin.
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
 [assembly: AssemblyTitle("OtobusSefer.BLL")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
@@ -14,23 +14,23 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// ComVisible özniteliğinin false olarak ayarlanması bu bütünleştirilmiş koddaki türleri
-// COM bileşenleri için görünmez yapar. Bu bütünleştirilmiş koddaki bir türe
-// erişmeniz gerekirse ComVisible özniteliğini o türde true olarak ayarlayın.
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// Bu proje COM'un kullanımına sunulursa, aşağıdaki GUID tür kitaplığının kimliği içindir
-[assembly: Guid("2371ebdb-ff4e-44dc-ab69-a3e596713d9a")]
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("8fc4b46f-9ec7-4510-91d3-e4818d6fc603")]
 
-// Bir derlemenin sürüm bilgileri aşağıdaki dört değerden oluşur:
+// Version information for an assembly consists of the following four values:
 //
-//      Ana Sürüm
-//      İkincil Sürüm 
-//      Yapı Numarası
-//      Düzeltme
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
 //
-// Tüm değerleri belirtebilir veya varsayılan Derleme ve Düzeltme Numaralarını kullanmak için
-// '*' kullanarak varsayılana ayarlayabilirsiniz:
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

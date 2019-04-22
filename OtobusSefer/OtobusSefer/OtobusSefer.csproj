@@ -86,5 +86,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OtobusSefer.BLL\OtobusSefer.BLL.csproj">
+      <Project>{8fc4b46f-9ec7-4510-91d3-e4818d6fc603}</Project>
+      <Name>OtobusSefer.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OtobusSefer.DAL\OtobusSefer.DAL.csproj">
+      <Project>{81b48b40-ad7f-413b-bccd-4c3f88757680}</Project>
+      <Name>OtobusSefer.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
